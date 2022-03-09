@@ -14,7 +14,7 @@ namespace CalculatorTest
         }
 
         [Theory]
-        [InlineData("25", 25)]
+        [InlineData("30", 30)]
         [InlineData("10", 10)]
         [InlineData("0", 0)]
         public void SingleNumberReturnsValue(string input, int expectedResult)
